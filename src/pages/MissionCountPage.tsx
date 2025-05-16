@@ -1,5 +1,5 @@
 import { PostCount } from "@/apis/SignupAPI";
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function MissionCountPage() {

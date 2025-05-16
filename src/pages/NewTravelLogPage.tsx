@@ -1,7 +1,7 @@
 import { GetDetailTravelLog } from "@/apis/TravelLogAPI";
 import { TravelLogDetailProps } from "@/types/TravelLog";
 import { onErrorImg } from "@/utils/ErrorImg";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 function NewTravelLogPage() {
@@ -33,7 +33,7 @@ function NewTravelLogPage() {
     };
 
     fetchMissions();
-  }, []);
+  });
 
   return (
     <div className="max-w-md mx-auto p-4">

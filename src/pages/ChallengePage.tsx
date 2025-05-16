@@ -2,7 +2,7 @@ import { GetCityMission } from "@/apis/ChallengeAPI";
 import MissionList from "@/components/MissionList";
 import { SearchLocation } from "@/components/SearchLocation";
 import useLocationStore from "@/stores/location";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function ChallengePage() {
   const { selectedArea } = useLocationStore();

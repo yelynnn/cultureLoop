@@ -1,6 +1,6 @@
 import { GetBadgesList } from "@/apis/ChallengeAPI";
 import { BadgeProps } from "@/types/Mission";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function MyBadgePage() {
   const [badges, setBadges] = useState<BadgeProps>({ badges: [] });
