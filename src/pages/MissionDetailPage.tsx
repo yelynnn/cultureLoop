@@ -73,7 +73,7 @@ const MissionDetailPage: React.FC = () => {
     };
 
     fetchMissions();
-  });
+  }, [challengeId]);
 
   const buttonText = {
     start: "Start Challenge",

@@ -33,7 +33,7 @@ function NewTravelLogPage() {
     };
 
     fetchMissions();
-  });
+  }, [logId]);
 
   return (
     <div className="max-w-md mx-auto p-4">
